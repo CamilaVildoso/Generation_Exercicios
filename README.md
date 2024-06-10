@@ -11,6 +11,7 @@ Os exercícios a seguir foram realizados como prática para Collections.
 
 ## Lista 02 - Collection Set 
 
-![image](https://github.com/CamilaVildoso/Generation_Exercicios_Java/assets/156922629/4e83d326-4811-4199-9ae4-d4b472e4d1ad)
+![Captura de pantalla 2024-06-10 162242](https://github.com/CamilaVildoso/Generation_Exercicios_Java/assets/156922629/4f53a058-c725-4a79-a511-d1ecf4cc7cb4)
+
 
 
