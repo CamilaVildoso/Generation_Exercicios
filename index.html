@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Camila Vildoso">
+    <meta name="description" content="Minha primeira pagina web">
+    <title>Kittypage</title>
+</head>
+<body>
+    <header>
+        <div class="contenedorHeader">
+            <h1> <img src="./img/portada-hello-kitty-web.jpg" height="400px" width="100%"> </h1>
+            <nav>
+                <a href="#historia">História</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#formulario">Formulario</a>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <section>
+            <div class="introduccion">
+                <h1 style="background: #f4a7d3;color: white;">🌈 Página sobre Hello Kitty 🌈</h1>
+                <h4>Aqui terão produtos, imagens e um pouco da história do nosso querido personagem</h4>
+            </div>
+        </section>
+
+        <section id="historia">
+            <h2 style="background: #f4a7d3;color: white;">História de Hello Kitty</h2>
+            <p>Hello Kitty é um personagem fictício produzido pela empresa japonesa Sanrio, criado em 1974 por Yuko Shimizu. É retratada como uma gata branca com um laço vermelho.</p>
+            <img src="./img/hello-kitty-poster.png">
+            <p>
+                Hello Kitty foi lançada pela primeira vez em uma pequena bolsa de vinil no Japão. 
+                Com o sucesso instantâneo, a Sanrio expandiu a linha de produtos para incluir papéis de carta, brinquedos, roupas e uma ampla gama de mercadorias. 
+                A simplicidade e o charme da personagem atraíram um público vasto e diversificado, desde crianças até adultos.
+            </p>
+            <img src="./img/226-o-mundo-da-hello-kitty-aprendendo-idiomas.png">
+            <p>
+                Na década de 1980, Hello Kitty já era um fenômeno global. A personagem ganhou uma série animada chamada "Hello Kitty's Furry Tale Theater" que foi transmitida em vários países, ampliando ainda mais sua popularidade. 
+                Além disso, a Sanrio começou a colaborar com outras marcas, lançando produtos exclusivos e coleções limitadas.
+            </p>
+        </section>
+
+        <section id="produtos">
+            <h2 style="background: #f4a7d3;color: white;">Produtos de Hello Kitty</h2>
+            <div class="listaDeProdutos">
+                <ul>
+                    <li>Brinquedos
+                        <ul>
+                            <li>Bonecas</li>
+                            <img src="./img/D_NQ_NP_911813-MLB70703528699_072023-O.webp">
+                            <li>Pelúcias</li>
+                            <img src="./img/26025_pelucia-hello-kitty-e-amigos-pascoa-20cm-sunny-042899_m4_638429433235758632.png">
+                            <li>LEGO</li>
+                            <img src="./img/s-l1200.webp" width="50%">
+                            <li>Quebra-cabeças</li>
+                            <img src="./img/50d80dc2071ebbc7a3bd568e00d1429b.jpeg" width="50%">
+                        </ul>
+                    </li>
+                    <li>Roupas
+                        <ul>
+                            <li>Vestido</li>
+                            <img src="./img/15112213361_g.webp" width="50%">
+                            <li>Boné</li>
+                            <img src="./img/descarga.jpeg" width="50%">
+                        </ul>
+                    </li>
+                    <li>Acessórios</li>
+                    <img src="./img/Sd2530a28d3964fe2abab920912e478e4X.jpeg_640x640Q90.jpeg_.webp" width="50%">
+                    <li>Artigos de papelaria</li>
+                    <img src="./img/kit-presente-papelaria-fofa-hello-kitty-e-sua-turma-25pcs-fofa.webp" width="50%">
+                </ul>
+            </div>
+
+            <h3>Detalhes dos Produtos</h3>
+            <div class="tablaDeProdutos">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pelúcia</td>
+                            <td>Boneco de pelúcia da Hello Kitty</td>
+                            <td>R$ 50,00</td>
+                        </tr>
+                        <tr>
+                            <td>Mochila</td>
+                            <td>Mochila escolar com estampa da Hello Kitty</td>
+                            <td>R$ 120,00</td>
+                        </tr>
+                        <tr>
+                            <td>Caderno</td>
+                            <td>Caderno de notas com capa da Hello Kitty</td>
+                            <td>R$ 15,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="contendorFormulario">
+            <div class="tituloDeFormulario">
+                <h2 style="background: #f4a7d3;color: white;">Formulário</h2>
+                <h4>❤️Quer ser parte do clube? Então, inscreva-se em nosso formulário</h4>
+            </div>
+
+            <div class="formulario" style="background-color: #f4a7d3; padding: 20px; max-width: 500px; border-radius: 10px; margin-bottom: 10px;">
+                <form method="post" enctype="multipart/form-data">
+                    Nome: <br>
+                    <input type="text" name="nome" value="seu nome..."><br>
+                    E-mail: <br>
+                    <input type="email" name="mail" value="seu e-mail..."><br>
+                    Razões pelas quais você gosta de Hello Kitty: <br>
+                    <textarea rows="4" cols="50" placeholder="Escreva aqui..."></textarea><br>
+                    Quer receber notícias sobre Hello Kitty?: <br>
+                    <label for="sim">Sim</label>
+                    <input type="radio" name="resposta" id="sim"  value="positivo"><br>
+                    <label for="Não">Não</label>
+                    <input type="radio" name="resposta" id="não" value="negativo"><br>
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="./img/portada-hello-kitty-web.jpg" height="400px" width="100%">
+        <p>&copy; 2024 Página sobre Hello Kitty - by Camila Vildoso</p>
+    </footer>
+</body>
+</html>
