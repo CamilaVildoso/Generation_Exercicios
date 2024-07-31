@@ -1,0 +1,218 @@
+body{
+    font-family: "Playwrite AR", cursive;
+}
+
+header{
+    width: 100%;
+    color: azure;
+    height: 200px;
+    background: url(./img/portadaHelloKitty.jpg) no-repeat center/cover;
+}
+
+.contenedorHeader{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.inicio{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.directorio{
+    display: flex;
+    gap: 40px;
+    height: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: azure;
+    align-self: self-end;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: #c71979;
+    text-decoration: underline;
+}
+
+.introduccion{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 40px;
+    height: 80px;
+}
+
+#historia{
+    padding: 20px;
+    background: #c71979;
+    color: azure;
+    height: 280px;
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tituloHistoria{
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.contenido{
+    display: flex;
+    gap: 50px;
+    height: 80%;
+}
+
+.parrafos{
+  display:flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  gap: 10px;
+}
+
+.imgHistoria{
+    width: 15%;
+}
+
+#produtos{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.tituloProdutos{
+    font-weight: bolder;
+    align-self: center;
+    font-size: 20px;
+}
+
+.contenedorUl{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.imgProdutos{
+    flex-grow: 1;
+    height: 300px;
+}
+
+.produtoTitulo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #c71979;
+    color: azure;
+    height: 30px;
+    align-content: center;
+}
+
+.tablaDeProdutos{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloTabla{
+    height: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.tabela-produtos {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.tabela-produtos th, .tabela-produtos td {
+    border: 3px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabela-produtos th {
+    background-color: #c71979;
+    color: azure;
+}
+
+
+#seccionFormulario{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+
+.contenedorFormulario{
+    margin: 40px;
+    align-content: center;
+}
+
+.tituloDeFormulario{
+    height: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.formulario{
+    background: #c71979;
+    border-radius: 20px;
+    color: azure;
+}
+
+form{
+    margin: 40px;
+}
+
+textarea{
+    margin: 10px;
+}
+
+.dato{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 85%;
+}
+
+#nao, #sim{
+    margin: 10px;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c71979;
+    background-color: azure;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: orange;
+    transform: scale(1.2);
+}
+
+footer{
+    width: 100%;
+    color: azure;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background: url(./img/portadaHelloKitty.jpg) no-repeat center/cover;
+}
